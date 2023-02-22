@@ -1,0 +1,21 @@
+.bg{
+ background-image: url('https://iskconjuhu.s3.ap-south-1.amazonaws.com/ISKCON-Juhu-536327ed69ae0ef.JPG');
+ background-repeat: no-repeat;
+ background-size: cover;
+  height: calc(100vh + 60px);
+  width: calc(100vw + 60px);
+  object-fit: cover;
+  filter: blur(30px);
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -1;
+}
+.loading{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 273px;
+}
